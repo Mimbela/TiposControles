@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiposControles.practica1">
+    <ContentPage.Content>
+        <StackLayout Margin="0,40,0,0">
+            <Label Text="Welcome to Xamarin.Forms!"
+               
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Dia" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            <Picker x:Name="pickerdia" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="Mes" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            <Picker x:Name="pickermes" HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="Año" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand"/>
+            <Picker x:Name="pickeranyo" HorizontalOptions="FillAndExpand"/>
+
+            <Label FontSize="Large" TextColor="Red" x:Name="lbldato"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand"/>
+            <Button Text="calcular" Clicked="btnmostrardia_Click"/>
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

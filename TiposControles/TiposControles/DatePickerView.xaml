@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiposControles.DatePickerView">
+  <ContentView.Content>
+      <StackLayout Margin="0,40,0,0">
+          <Label Text="DATEPICKER" FontSize="40" HorizontalOptions="CenterAndExpand" />
+            <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
+            <DatePicker Format="T" VerticalOptions="CenterAndExpand"/>
+            <TimePicker VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>
